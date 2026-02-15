@@ -21,6 +21,3 @@ def contact_us():
 @app.route('/careers')
 def placeholder():
     return render_template('progress.html')
-
-if __name__ == '__main__':
-    app.run()
