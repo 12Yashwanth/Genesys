@@ -79,6 +79,4 @@ def login():
 def placeholder():
     return render_template('progress.html')
 
-if __name__ == '__main__':
-    init_db()
-    app.run()
+init_db()
